@@ -1,2 +1,95 @@
-font-family: 'Roboto',
-sans-serif;
+h1 {
+    font-size: 40px;
+    margin: 15px;
+    font-style: bold;
+}
+
+p {
+    text-align: justify;
+    color: grey;
+}
+
+section {
+    margin: 5% 0;
+}
+
+span {
+    color: orangered;
+}
+
+footer {
+    background-color: rgb(4, 4, 28);
+    color: gray;
+    padding: 3%;
+}
+
+.flex {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin: 2%;
+}
+
+.center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.box-shadow {
+    width: 80%;
+    margin: 2.5%;
+    padding: 2.5%;
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+
+.box-shadow img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+
+    background-image: linear-gradient(orange, orangered);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.center1 {
+    text-align: center;
+}
+
+#section2 {
+    background-image: url(images/shapes/7.png);
+    margin: 0;
+}
+
+#section4 {
+    margin: 100px auto;
+
+    text-align: center;
+}
+
+#section4 div {
+    margin: auto;
+}
+
+#img2 {
+    width: 300px;
+    margin-bottom: 0;
+}
